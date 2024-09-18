@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina_rute"
+    tools:context=".rute.ZlatnaGreda">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pozadina_rute"
+        tools:context=".rute.kopacki">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="331dp"
+            android:layout_height="252dp"
+            android:layout_marginTop="3132dp"
+            android:text="Zlatna Greda smještena je u Baranji, 30-tak kilometara od Osijeka, na sjevernom ulazu u Park prirode Kopački rit. To je mjesto gdje se spajaju prelijepa priroda, gastronomija, avanturistički duh i učenje o prirodi. Posjetiocima je moguće iskusiti ljepotu kroz razne aktivnosti kao što su biciklizam, vožnja kanuom, adrenalin park i slično."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k6"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="2832dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zlatna2"
+            tools:srcCompat="@drawable/zlatna2" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="338dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="2728dp"
+            android:text="U nastavku skrećemo desno u predivnu gustu šumu koja nas vodi sve do Zlatne grede."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="2428dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zlatna1"
+            tools:srcCompat="@drawable/zlatna1" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="332dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="2292dp"
+            android:text="Nastavkom nasipa dolazimo do Podunavlja, mjesta koje je poznato po brojnim ribnjacima te već poznatom ljepotom prirode. Ravna cesta nas također još vodi kroz Kozjak."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="306dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="3412dp"
+            android:text="Ako vam se sviđa ova ruta, pogledajte kako ju možete razgledati ovdje:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="332dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="1840dp"
+            android:text="Dolaskom do kraja nasipa, dobrodošlicu nam daje jezero Sakadaš, kojim je moguće ploviti pomoću broda iz pristaništa Parka prirode Kopački rit "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k0"
+            android:layout_width="366dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zlatna"
+            tools:srcCompat="@drawable/zlatna" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="274dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="276dp"
+            android:fontFamily="@font/acme"
+            android:text="Zlatna Greda"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="top"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="932dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="336dp"
+            android:text="Vrsta rute: U prirodi"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:text="Zahtjevnost: Visoka "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="384dp"
+            android:text="Duljina: 30km"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="10dp"
+            android:visibility="visible"
+            app:barrierDirection="bottom"
+            tools:layout_editor_absoluteY="932dp"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/button_greda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3516dp"
+            android:background="#000000"
+            android:backgroundTint="#34BD2D"
+            android:backgroundTintMode="add"
+            android:text="Prikaži rutu"
+            app:cornerRadius="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="346dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="413dp"
+            android:text="Naša avantura prvo nas vodi kraj jezgre iz koje je nastao Osijek – Osječka tvrđa Osječka tvrđa poznata je po svojim brojnim znamenitostima, kao što su: crkva Sv. Mihaela Arkanđela, crkva Uzvišenja Sv. Križa, kip Sv. Trojstva i slično. Sama tvrđa okružena je gradskim zidinama koje daju moćan prizor sa gledišta osječke promenade. "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k1"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="591dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kopacki1" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="346dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="888dp"
+            android:text="Nakon prelaska Tuđmanovog mosta, put nas vodi sjevernom obalom Drave osječkom promenadom te prolaskom ispod željezničkog mosta. Iako manje posjećivana nego južna strana, sjeverna strana promenade nudi razne znamenitosti kao što je kupalište Copacabana, Zoo vrt Osijek te katakombe."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k2"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="1071dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kopacki2" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="336dp"
+            android:layout_height="143dp"
+            android:layout_marginTop="1368dp"
+            android:text="Nakon prolaska duž promenade, dolazimo do njenog kraja i do početka osječkog nasipa koji će nas voditi sve do Kopačeva! Ova pejzažna ruta nas povezuje s prirodom i, iako smo tek nekoliko kilometara od centra grada, nudi brojne interakcije s divljim životinjama. "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k3"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="1540dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kopacki5"
+            tools:src="@drawable/kopacki5" />
+
+        <ImageView
+            android:id="@+id/k4"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="1980dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kopacki6"
+            tools:srcCompat="@drawable/kopacki6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

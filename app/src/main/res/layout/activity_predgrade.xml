@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina_rute"
+    tools:context=".rute.predgrade">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pozadina_rute"
+        tools:context=".rute.predgrade">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="344dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="1504dp"
+            android:text="Skretanjem u ulicu Jure Kaštelana, dolazimo do ceste koja spaja Tenju i Antunovac. Iako nema puno znamenitosti (osim farme muznih krava), ona je klasični primjer slavonske ljepote u smislu da je prostor oko nje toliko ravan da je sa nje vidljiv Osijek, Antunovac, Tenja i Silaš."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="332dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="1988dp"
+            android:text="Dolaskom u Antunovac prolazimo kraj moderne crkve svetog Antuna te nastavljamo prema Josipinom dvoru, koji također pruža prirodne ljepote Slavonije, iako se već nalazimo blizu grada."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k0"
+            android:layout_width="366dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/predgrade1"
+            tools:srcCompat="@drawable/predgrade1" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="274dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="276dp"
+            android:fontFamily="@font/acme"
+            android:text="Osječkim predgrađem"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="top"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="932dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="336dp"
+            android:text="Vrsta rute: Gradska i u prirodi"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:text="Zahtjevnost: Srednja "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="384dp"
+            android:text="Duljina: 20km"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="10dp"
+            android:visibility="visible"
+            app:barrierDirection="bottom"
+            tools:layout_editor_absoluteY="932dp"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="342dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="413dp"
+            android:text="Iako je ljepota Osijeka neopisiva, nekad je potreban odmor od užurbanosti grada. U tom slučaju odlična ruta jest ona u okolici grada."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="353dp"
+            android:layout_height="203dp"
+            android:layout_marginTop="516dp"
+            android:text="Put počinjemo na južnoj granici grada između četvrti Jug 2 i Novi Grad, te preko nadvožnjaka Rosinjača dolazimo do Tenjske ceste. Tenjska cesta ima jednu od najmodernijih biciklističkih staza i pruža ugodnu vožnju uz cestu. Na njoj se također može vidjeti bivši poljoprivredni fakultet na kojemu je moguće sudjelovati u aktivnostima kao što su Airsoft i Paintball."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k2"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="728dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/predgrade2" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="337dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="1032dp"
+            android:text="U nastavku dolazimo do Tenja što je prigradsko naselje grada Osijeka. Pretpostavlja se da naziv Tenja dolazi iz mađarske riječi za kravu, što nije čudno zbog brojnih pašnjaka koji su se nekoć tu nalazili. Tenja također pruža razne aktivnosti za seoski turizam, jedna od kojih je ranč Salaš Fury."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/k3"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="1224dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.575"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/predgrade3"
+            tools:src="@drawable/predgrade3" />
+
+        <ImageView
+            android:id="@+id/k4"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="1700dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.575"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/predgrade4"
+            tools:srcCompat="@drawable/predgrade4" />
+
+        <ImageView
+            android:id="@+id/k5"
+            android:layout_width="366dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="2152dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/predgrade6"
+            tools:srcCompat="@drawable/predgrade6" />
+
+        <Button
+            android:id="@+id/button_greda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2640dp"
+            android:background="#000000"
+            android:backgroundTint="#34BD2D"
+            android:backgroundTintMode="add"
+            android:text="Prikaži rutu"
+            app:cornerRadius="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="306dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="2536dp"
+            android:text="Ako vam se sviđa ova ruta, pogledajte kako ju možete razgledati ovdje:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="337dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="2452dp"
+            android:text="U nastavku prolazimo kroz Brijest i dolazimo do već poznatog Osijeka."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
